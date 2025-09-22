@@ -40,11 +40,10 @@ Incluye autenticación JWT y control de acceso para el módulo de administració
 
 ## 🗄️ Base de datos
 
-En la carpeta `database/` se incluyen scripts SQL:
+En la carpeta `database/` se incluyen diagrama y dump SQL:
 
-- `create_schema.sql` → Crea tablas y relaciones.  
-- `seed_data.sql` → (opcional) datos iniciales.  
-- `backup_smart_devices.sql` → respaldo completo.
+- `dump-smart_devices-202509221623.sql` → Crea tablas relaciones y data inicial.  
+
 
 Ejecuta:
 
