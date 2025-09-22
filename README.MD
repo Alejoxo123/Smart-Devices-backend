@@ -30,13 +30,11 @@ Incluye autenticación JWT y control de acceso para el módulo de administració
 3. Crea el archivo `.env` en `backend/api/.env` con lo siguiente:  
 
    ```dotenv
-   DATABASE_URL=mysql://root:root@127.0.0.1:3306/smart_devices
-   JWT_SECRET=8aa0550b19ddb39c751a1a95c3c676951296980f8f7811b4a86ea03f5aabc411102430e527c7b4f80f9ceac9962e61d3
+   DATABASE_URL=mysql://usuario:password@localhost:3306/smart_devices
+   JWT_SECRET=clave_secreta_segura
    PORT=3000
    ALLOWED_ORIGIN=http://localhost:4200
    ```
-
-   > ⚠️ No subas este archivo al repositorio. Maneja siempre tus credenciales de forma segura.
 
 ---
 
